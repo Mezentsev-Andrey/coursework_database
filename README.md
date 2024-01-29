@@ -22,5 +22,5 @@ PostgreSQL с использованием библиотеки psycopg2 для 
 
 Зависимости
 
-Python 3.x, PostgreSQL, библиотека psycopg2 для работы с PostgreSQL, файл database.ini.
+Python 3.x, PostgreSQL, библиотека psycopg2, файл database.ini.
 
