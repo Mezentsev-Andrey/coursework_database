@@ -51,7 +51,7 @@ def main():
 0 - выход"""
         )
 
-        user_input = input()
+        user_input = input("Введите номер выбранного пункта: ")
         if user_input == "1":
             db_manager.get_companies_and_vacancies_count()
         elif user_input == "2":
@@ -65,7 +65,7 @@ def main():
         elif user_input == "0":
             break
         else:
-            print("Неверная команда")
+            print("Неверная команда.")
 
 
 if __name__ == "__main__":
